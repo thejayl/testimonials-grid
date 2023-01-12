@@ -25,7 +25,7 @@ main {
   gap: 24px;
 }
 
-.scr--only {
+.scr--only:not(:focus):not(:active) {
   clip: rect(0 0 0 0); 
   clip-path: inset(50%);
   height: 1px;
